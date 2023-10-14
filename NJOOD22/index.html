@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="loader">
+    <span></span>
+    <span></span>
+   <span></span>
+    <span></span>
+</div>
+<center><div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div> </center>
+<style>
+    .loader{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  margin-top:200px;
+
+    position: relative;
+    animation: spin 4s linear infinite;
+}
+.loader:before,
+.loader:after{
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    box-shadow: 18px 18px #0DB14C, -18px -18px #0189D2;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: load 1.2s linear infinite;
+}
+.loader:after{
+    box-shadow: 18px 18px #6461AB, -18px -18px #CD014F;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+@keyframes load{
+    50%{ height: 42px; }
+}
+@keyframes spin{
+    100%{ transform: rotate(360deg); }
+}
+
+.loader{
+    width: 84px;
+    height: 84px;
+  
+    margin: 50px auto;
+  margin-top:140px;
+    transform: rotate(45deg);
+    position: relative;
+    animation: animate 1.2s infinite ease-in-out;
+}
+.loader span{
+    background-color: #ff6600;
+    width: 40px;
+    height: 40px;
+    border: 1px #ff6600 solid;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    animation: animate_1 1.2s infinite ease-in-out both;
+}
+.loader span:nth-child(1){
+    top: 0;
+    left: 0;
+}
+.loader span:nth-child(2){
+    background-color: red;
+    border: 1px red solid;
+    top: 0;
+    right: 0;
+    animation: animate_2 1.2s infinite ease-in-out both;
+}
+.loader span:nth-child(3){
+    background-color: green;
+    border: 1px green solid;
+    bottom: 0;
+    left: 0;
+    animation: animate_2 1.2s infinite ease-in-out both;
+}
+.loader span:nth-child(4){
+    background-color: purple;
+    border: 1px purple solid;
+    bottom: 0;
+    right: 0;
+}
+@keyframes animate{
+    0%, 10%, 100%{
+        width: 84px;
+        height: 84px;
+    }
+    65%{
+        width: 150px;
+        height: 150px;
+    }
+}
+@keyframes  animate_1{
+    0%, 30%{ transform: rotate(0); }
+    55%{
+        background-color: transparent;
+        transform: scale(0.5);
+    }
+    100%{ transform: rotate(180deg); }
+}
+@keyframes  animate_2{
+    0%, 30%{ transform: rotate(0); }
+    55%{
+        background-color: transparent;
+        transform: scale(0.5);
+    }
+    100%{ transform: rotate(180deg); }
+}
+
+
+
+
+
+.loader{
+    width: 84px;
+    height: 84px;
+  
+    margin: 50px auto;
+  margin-top:140px;
+    transform: rotate(45deg);
+    position: relative;
+    animation: animate 1.2s infinite ease-in-out;
+}
+.loader span{
+    background-color: #ff6600;
+    width: 40px;
+    height: 40px;
+    border: 1px #ff6600 solid;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    animation: animate_1 1.2s infinite ease-in-out both;
+}
+.loader span:nth-child(1){
+    top: 0;
+    left: 0;
+}
+.loader span:nth-child(2){
+    background-color: red;
+    border: 1px red solid;
+    top: 0;
+    right: 0;
+    animation: animate_2 1.2s infinite ease-in-out both;
+}
+.loader span:nth-child(3){
+    background-color: green;
+    border: 1px green solid;
+    bottom: 0;
+    left: 0;
+    animation: animate_2 1.2s infinite ease-in-out both;
+}
+.loader span:nth-child(4){
+    background-color: purple;
+    border: 1px purple solid;
+    bottom: 0;
+    right: 0;
+}
+@keyframes animate{
+    0%, 10%, 100%{
+        width: 84px;
+        height: 84px;
+    }
+    65%{
+        width: 150px;
+        height: 150px;
+    }
+}
+@keyframes  animate_1{
+    0%, 30%{ transform: rotate(0); }
+    55%{
+        background-color: transparent;
+        transform: scale(0.5);
+    }
+    100%{ transform: rotate(180deg); }
+}
+@keyframes  animate_2{
+    0%, 30%{ transform: rotate(0); }
+    55%{
+        background-color: transparent;
+        transform: scale(0.5);
+    }
+    100%{ transform: rotate(180deg); }
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <title>Message 2023</title>
+    <!--
+
+    Template 2107 New Spot
+
+	http://www.tooplate.com/view/2107-new-spot
+
+    -->
+</head>
+
+<body>
+     <!--<div class="tm-container mx-auto">
+        <section class="tm-section tm-section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tm-bg-circle-white tm-flex-center-v">
+                            <header class="text-center">
+                               <h1 class="tm-site-title">New SPOT</h1>
+                                <p class="tm-site-subtitle">Free HTML one-page template</p>
+                            </header>
+                            <p>This HTML page features alternating circular spots in a clean and attractive way. You may use this template for any purpose. Photos are from Unsplash website.</p>
+                            <p class="text-center mt-4 mb-0"> 
+                                <a data-scroll href="#tm-section-2" class="btn tm-btn-secondary">Continue...</a>
+                            </p>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tm-section-2" class="tm-section pt-2 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 tm-flex-center-v tm-text-container tm-section-left">
+                       <center> <h2 class="tm-color-secondary mb-4">ديـسـمبـر</h2>
+                       <p class="mb-4">و ها هو ديـسـمبـر
+‏يلملمُ حقائبَ أثنى عشرَ شهراً
+‏مضوا بهنائِهم و عنائِهم
+‏بضيقِهم و فرجِهم
+‏لـيعلن عن افتتاح عامٍ جديد
+‏يرسمُ بين طيّاته أحداثٍ جديده
+‏و دروساً حديثه
+‏و مواقف ظريفه و أخرى أليمه
+‏لـنكتب رواية جديدةً
+‏بصفحات أيام عامنا الجديد .</p>
+                                <h2 class="tm-color-primary">.📨اغمِروني بكلماتكم اللطيفة</h2>
+                                <center> <h2 class=" mb-4">2023</h2>
+
+</center> 
+                        <p class="mb-5"></p>
+                        <p class="text-right mb-0">
+                            <!-- <a href="#tm-section-3" class="btn tm-btn-secondary">Continue...</a>
+                        </p>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 tm-circle-img-container">
+                        <img src="img/img-01.jpg" alt="Image" class="rounded-circle tm-circle-img">
+                    </div> -->
+                </div>
+            </div>
+       
+ 
+        </section>
+        <section class="tm-section pt-2 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 tm-flex-center-v tm-section-left">
+                        <form action="https://formsubmit.co/njood99199nn@gmail.com" class="tm-contact-form" method="POST">
+                            <div class="form-group mb-4">
+                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
+                            </div>
+                            <div class="form-group mb-4">
+                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                            </div>
+                            <div class="form-group mb-5">
+                                <textarea rows="5" id="contact_message" name="contact_message" class="form-control" placeholder="Message..." required></textarea>
+                            </div>
+                            <div class="form-group mb-0 text-right">
+                                <button type="submit" class="btn tm-btn-primary tm-send-btn">Send</button>
+                               <!-- <input type="submit" name="submit" value="send"> -->
+                            </div>
+                        </form>
+                    </div>
+                   <!-- <div class="col-xl-8 col-lg-8 tm-circle-img-container tm-contact-right">
+                         <img src="img/img-02.jpg" alt="Image" class="rounded-circle tm-circle-img">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <footer class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <center><p class="small mb-4 tm-footer-text">Copyright &copy;NJOOD 2022- All Right Reserved.
+                    
+                    <!--| Design: <a rel="nofollow" href="https://www.tooplate.com" class="tm-footer-link">Tooplate</a> -->
+                   </p></center> 
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--<script src="js/smooth-scroll.polyfills.min.js"></script> -->
+    <!-- https://github.com/cferdinandi/smooth-scroll 
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            easing: 'easeInOutQuart',
+            speed: 800
+        });
+    </script>
+</body>
+</html>
